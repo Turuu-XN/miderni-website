@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07060b">
+  <meta name="description" content="Miderni — modern websites and digital experiences for ambitious brands.">
+  <title>Miderni — We Build Digital Experiences</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Miderni home"><span class="brand-mark">M</span><span>Miderni</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav">
+      <a href="#home" data-i18n="navHome">Home</a><a href="#services" data-i18n="navServices">Services</a>
+      <a href="#work" data-i18n="navWork">Portfolio</a><a href="#about" data-i18n="navAbout">About</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <select id="language" aria-label="Choose language"><option value="en">EN</option><option value="ja">日本語</option><option value="mn">МН</option></select>
+      <a class="button button-small button-outline" href="#contact" data-i18n="letsTalk">Let's Talk ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i><span data-i18n="eyebrow">Independent digital studio</span></div>
+        <h1>MID<span>ERNI</span></h1>
+        <p class="hero-title" data-i18n="tagline">We Build Digital Experiences.</p>
+        <p class="hero-desc" data-i18n="heroDesc">Modern design. Smart solutions. Premium websites.</p>
+        <div class="hero-buttons"><a class="button button-primary" href="#contact" data-i18n="startProject">Start a Project ↗</a><a class="button button-ghost" href="#work" data-i18n="viewWork">Explore Our Work</a></div>
+        <div class="hero-note"><span class="pulse"></span><span data-i18n="available">Available for select projects</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract metallic Miderni M emblem">
+        <div class="planet"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="emblem"><span>M</span></div><div class="art-caption">DESIGN / BUILD / GROW</div>
+      </div>
+      <div class="hero-bottom"><span>01 — 04</span><span data-i18n="scroll">SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="section-wrap services-section" id="services">
+      <div class="section-heading"><div><div class="section-kicker" data-i18n="servicesKicker">WHAT WE DO</div><h2 data-i18n="servicesTitle">Digital, made <em>distinct.</em></h2></div><p data-i18n="servicesIntro">From the first idea to launch day, we create thoughtful digital experiences that help brands move forward.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><div class="card-top"><span>01</span><b>⌘</b></div><h3 data-i18n="service1">Business Websites</h3><p data-i18n="service1Desc">A polished online home that builds trust and turns visitors into customers.</p><a href="#contact" data-i18n="learnMore">Discuss a project ↗</a></article>
+        <article class="service-card featured"><div class="card-top"><span>02</span><b>✳</b></div><h3 data-i18n="service2">Landing Pages</h3><p data-i18n="service2Desc">Focused pages designed to communicate clearly and drive action.</p><a href="#contact" data-i18n="learnMore">Discuss a project ↗</a></article>
+        <article class="service-card"><div class="card-top"><span>03</span><b>◈</b></div><h3 data-i18n="service3">Website Redesign</h3><p data-i18n="service3Desc">Give an existing website a sharper look, clearer structure and better experience.</p><a href="#contact" data-i18n="learnMore">Discuss a project ↗</a></article>
+      </div>
+    </section>
+
+    <section class="section-wrap work-section" id="work">
+      <div class="section-heading"><div><div class="section-kicker" data-i18n="workKicker">SELECTED CONCEPTS</div><h2 data-i18n="workTitle">Ideas into <em>impact.</em></h2></div><p data-i18n="workIntro">A preview of the visual direction we can create. These are concept projects, not commissioned client work.</p></div>
+      <div class="work-grid">
+        <article class="work-card"><div class="work-visual visual-tech"><div class="visual-orb"></div><div class="visual-label">AUDIO / FUTURE</div><div class="visual-title">Sound<br>Beyond.</div></div><div class="work-meta"><div><h3>01 / Tech & Lifestyle</h3><p data-i18n="concept">Concept website</p></div><span>↗</span></div></article>
+        <article class="work-card"><div class="work-visual visual-startup"><div class="visual-ring"></div><div class="visual-label">NEXT / NOW</div><div class="visual-title">Move<br>Forward.</div></div><div class="work-meta"><div><h3>02 / Startup</h3><p data-i18n="concept">Concept website</p></div><span>↗</span></div></article>
+        <article class="work-card"><div class="work-visual visual-estate"><div class="building"></div><div class="visual-label">SPACE / FORM</div><div class="visual-title">Quiet<br>Luxury.</div></div><div class="work-meta"><div><h3>03 / Architecture</h3><p data-i18n="concept">Concept website</p></div><span>↗</span></div></article>
+      </div>
+    </section>
+
+    <section class="about-band" id="about"><div class="section-wrap about-inner"><div class="section-kicker" data-i18n="aboutKicker">THE MIDErNI APPROACH</div><h2 data-i18n="aboutTitle">Small studio.<br><em>Big-picture thinking.</em></h2><p data-i18n="aboutDesc">We combine considered design with practical development to make websites that feel distinctive, work beautifully and grow with your business.</p><div class="principles"><span>01 / Clarity</span><span>02 / Craft</span><span>03 / Purpose</span></div></div></section>
+
+    <section class="section-wrap contact-section" id="contact"><div class="contact-orbit"></div><div class="section-kicker" data-i18n="contactKicker">HAVE A PROJECT IN MIND?</div><h2 data-i18n="contactTitle">Let's create something<br><em>extraordinary.</em></h2><p data-i18n="contactDesc">Tell us what you're building. Let's make it real.</p><a class="button button-primary" href="mailto:hello@miderni.com?subject=New%20Miderni%20project" data-i18n="contactButton">Start a Conversation ↗</a><small data-i18n="emailNote">Replace this email address with your real studio email before publishing.</small></section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">M</span><span>Miderni</span></a><span>© <span id="year"></span> Miderni Studio</span><span data-i18n="footerLine">Designed for what's next.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
